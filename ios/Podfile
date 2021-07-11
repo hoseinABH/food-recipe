@@ -12,6 +12,8 @@ target 'FoodRecipeApp' do
     :hermes_enabled => false
   )
 
+  pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
   target 'FoodRecipeAppTests' do
     inherit! :complete
     # Pods for testing

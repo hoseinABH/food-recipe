@@ -26,6 +26,7 @@ const Tabs = () => {
             <Tab.Screen
                 name="Settings"
                 component={Home}
+                
             />
         </Tab.Navigator>
     )
